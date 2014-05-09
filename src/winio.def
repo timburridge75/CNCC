@@ -1,0 +1,13 @@
+LIBRARY     WINIO.DLL
+
+EXPORTS
+    GetPhysLong                    @1   ; GetPhysLong
+    GetPortVal                     @2   ; GetPortVal
+    InitializeWinIo                @3   ; InitializeWinIo
+    InstallWinIoDriver             @4   ; InstallWinIoDriver
+    MapPhysToLin                   @5   ; MapPhysToLin
+    RemoveWinIoDriver              @6   ; RemoveWinIoDriver
+    SetPhysLong                    @7   ; SetPhysLong
+    SetPortVal                     @8   ; SetPortVal
+    ShutdownWinIo                  @9   ; ShutdownWinIo
+    UnmapPhysicalMemory            @10  ; UnmapPhysicalMemory
